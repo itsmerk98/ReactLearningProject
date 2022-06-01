@@ -1,14 +1,10 @@
-import './App.css';
-import SubComponent from './components/SubComponent.js'
+import ExpenseItem from './components/ExpenseItem.js'
 
 function App() {
     return (
         <>
-            
             <div className='app-container'>
-                <h3>First component</h3>
-                <p>This is a p tag.</p>
-                <SubComponent />
+                <ExpenseItem />
             </div>
         </>
     );
