@@ -5,9 +5,10 @@ import ExpenseForm from './ExpenseForm';
 import './NewExpenses.css';
 
 const NewExpenses = () => {
+    const saveExpenseDataHandler = (enteredExpenseData) => { };
     return (
         <div className='new-expense'>
-            <ExpenseForm />
+            <ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />
         </div>
     );
 }
